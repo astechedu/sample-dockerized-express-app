@@ -2,6 +2,11 @@
 
 This is sample dockerized node express app.
 
+
+
+Dockerfile: 
+
+
 #Fetching the latest node image on alpine linux
 
       FROM node:18-alpine
