@@ -22,9 +22,11 @@ Dockerfile:
 #Installing dependencies
 
       COPY ./package.json /express-app
+      
       RUN npm install
 
 #Copying all the files in our project
+
       COPY . .
 
 #Starting our application
@@ -32,7 +34,7 @@ Dockerfile:
       CMD ["node","app.js"]
 
 
-
+----- X -------
 
 
 #Building image
